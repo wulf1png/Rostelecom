@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Practick
+namespace Rostelecom
 {
-    public partial class Form3 : Form
+    public partial class Entrance : Form
     {
-        public Form3()
+        public Entrance()
         {
             InitializeComponent();
             button1.BringToFront();
@@ -22,21 +22,11 @@ namespace Practick
             textBox2.BringToFront();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             if ((textBox1.Text == "admin") && (textBox2.Text == "12345"))
             {
-                Form2 MyFormMain = new Form2();
+                MACADD MyFormMain = new MACADD();
                 this.Hide();
                 MyFormMain.ShowDialog();
                 this.Show();

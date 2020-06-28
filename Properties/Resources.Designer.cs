@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Practick.Properties
+namespace Rostelecom.Properties
 {
 
 
